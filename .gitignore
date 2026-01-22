@@ -205,3 +205,22 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# ===== PyInstaller =====
+build/
+dist/
+*.spec
+
+# ===== Application outputs =====
+snapshots/
+record_*/
+*.avi
+*.mp4
+
+# ===== Logs & temp =====
+*.log
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
